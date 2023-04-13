@@ -17,3 +17,37 @@ for i in range(5, 10):
 90 == 19
 10 > 20
 40 < 00
+number = 10 
+
+if number > 0:
+    print(f"{number} is positive")
+print("hello")
+number = 0
+
+if number < 0:
+    print(f"number {number} is positive")
+    
+elif number == 0:
+    print(f"{number} is zero")
+    
+else:
+    print(f"{number} is negative")
+number = 15
+
+if number > 0:
+    print(f"number {number} is positive")
+
+elif number == 0:
+    print(f"{number} is zero")
+    
+else:
+    print(f"{number} is negative")
+number = 50
+number = number - 10    
+number = 20
+number %=9
+brand = "new_apple"
+brand = "zara"
+print((10 > 5)
+     and 1 < 3
+     and "A" == "A")
